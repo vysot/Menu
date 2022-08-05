@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 60px auto;
+    background-color: rgba(225, 241, 250, 255);
+    color: rgba(25, 43, 64, 255);
+}
+
+tr,
+th,
+td {
+    border: 1px solid rgba(142, 228, 206, 255);
+    padding: 5px;
+    font-family: 'Courier Prime', monospace;
+}
+
+th {
+    font-size: 15px;
+}
+
+td {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+caption {
+    height: 35px;
+    background-color: rgba(245, 241, 249, 255);
+    color: rgba(255, 206, 0, 255);
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 1px 1px rgba(206, 171, 207, 255);
+}
+
+span {
+    color: rgba(139, 227, 200, 255);
+    margin: 10px;
+}
+
+.caption-left {
+    text-align: left;
+}
